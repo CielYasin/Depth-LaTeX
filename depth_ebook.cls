@@ -22,6 +22,13 @@
 \titlespacing{\section}{0pt}{10pt}{6pt}
 \titlespacing{name=\section, numberless}{0pt}{10pt}{6pt}
 
+%set up how subsection will look like
+\titleformat{\subsection}[display]{}{\filleft\scshape\enspace Subsection \thesubsection}{-2pt}{\filright \huge \bfseries}[]
+\titleformat{name=\subsection, numberless}[block]{}{}{0pt}{\filright \huge \bfseries}[]
+
+\titlespacing{\subsection}{0pt}{10pt}{6pt}
+\titlespacing{name=\subsection, numberless}{0pt}{10pt}{6pt}
+
 %remove auto-indent
 \setlength{\parindent}{0pt}
 
